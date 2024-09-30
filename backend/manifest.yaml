@@ -39,8 +39,8 @@ spec:
       # check image is exit in docker hb or not
         image: kalyaneswarm/backend:v1.0
         envFrom:
-        - ConfigMapRef:
-            name: backend
+          - configMapRef:
+              name: backend
 
 ---
 
